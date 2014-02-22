@@ -7,7 +7,7 @@ import 'package:angular/angular.dart';
   publishAs: 'ctrl'
 )
 class PhoneListCtrl {
-    HTTP _http;
+    Http _http;
     List<Map> phones = [];
     String orderProp = "age";
 
